@@ -1,1 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/20221102_day15_pm_project
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+server:
+  port: 9090
 
